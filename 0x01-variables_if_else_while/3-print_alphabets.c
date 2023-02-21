@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *main - return alphabets 
+ *main - return alphabets
  *
  * Return: 0
  */
