@@ -1,33 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- * main - main function to generate random numbers
+ *main - return alphabets 
  *
  * Return: 0
  */
 int main(void)
 {
-	int n;
-	int num;
+	int ch = 'a';
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	printf("last digit of %d is ", n);
-	num = n % 10;
-
-	if (n > 5)
+	while (ch <= '2')
 	{
-		printf("%d and is greater than 5\n", num);
+		putchar(ch);
+		ch++;
 	}
-	else if (n < 6)&&(num < 0))
-	{
-		printf("%d and is less than 6 and not 0\n", num);
-	}
-	else
-	{
-		printf("%d and is 0\n", num);
-	}
+	putchar('\n');
 	return (0);
 }
